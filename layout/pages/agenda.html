@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda - PsicOrganize</title>
+    <link rel="stylesheet" href="../../style/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <button id="backBtn">Voltar</button>
+            <h2 class="page-title">Agenda de Consultas</h2>
+        </div>
+    </header>
+    
+    <main>
+        <section id="agenda">
+            <h2>Consultas Agendadas</h2>
+            <div class="consultas" id="consultas">
+                <div class="consulta" data-id="1">
+                    <p>Data: 21/06/2024</p>
+                    <p>Hora: 10:00</p>
+                    <p>Paciente: João da Silva</p>
+                    <p>WhatsApp: <a href="https://wa.me/5511912345678" target="_blank">5511912345678</a></p>
+                    <p>Email: <a href="mailto:joao@example.com">joao@example.com</a></p>
+                    <button class="editar">Editar</button>
+                    <button class="excluir">Excluir</button>
+                </div>
+                <div class="consulta" data-id="2">
+                    <p>Data: 04/07/2024</p>
+                    <p>Hora: 09:00</p>
+                    <p>Paciente: Maria de Oliveira</p>
+                    <p>WhatsApp: <a href="https://wa.me/5411912348765" target="_blank">5411912348765</a></p>
+                    <p>Email: <a href="mailto:maria@example.com">maria@example.com</a></p>
+                    <button class="editar">Editar</button>
+                    <button class="excluir">Excluir</button>
+                </div>
+            </div>
+            <button id="addConsultaBtn">Adicionar Consulta</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 PsicOrganize. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../../services/scriptAgenda.js"></script>
+</body>
+</html>
